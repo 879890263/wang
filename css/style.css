@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+html, body, .box {
+  width: 100%;
+  background: #EEEEEE;
+  height: 100%;
+  overflow-x: hidden; }
+
+html {
+  font-size: 62.5%; }
+
+.box {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+header {
+  width: 100%;
+  height: 4rem;
+  background: #06c1ae;
+  display: flex; }
+  header a {
+    flex: 1; }
+    header a em {
+      margin-top: 0.5rem;
+      font-style: normal;
+      font-size: 1.4rem;
+      color: white;
+      display: block;
+      text-align: center; }
+    header a b {
+      font-size: 1.4rem;
+      color: white;
+      display: block;
+      text-align: center; }
+  header span {
+    flex: 1;
+    text-align: center;
+    font-size: 1.6rem;
+    color: white;
+    line-height: 4rem; }
+    header span b {
+      font-weight: lighter;
+      font-size: 1.2rem !important; }
+  header p {
+    background: #05a494;
+    flex: 3;
+    color: white;
+    margin-top: 0.5rem;
+    height: 3rem;
+    line-height: 2.9rem; }
+    header p input {
+      width: 85%;
+      margin-left: 0.5rem;
+      height: 3rem;
+      background: #05a494;
+      border: none;
+      color: white;
+      outline: none; }
+
+section {
+  flex: 1;
+  overflow-y: scroll; }
+  section .banner {
+    width: 100%;
+    height: auto; }
+    section .banner img {
+      width: 100%;
+      height: auto;
+      display: block; }
+  section .center {
+    background: white;
+    overflow: hidden; }
+    section .center ul {
+      width: 100%;
+      height: 12rem;
+      display: flex;
+      flex-wrap: wrap;
+      background: white; }
+      section .center ul li {
+        flex-basis: 20%; }
+        section .center ul li img {
+          width: 4rem;
+          height: auto;
+          display: block;
+          margin: 0 auto; }
+        section .center ul li span {
+          display: block;
+          text-align: center;
+          font-size: 1.4rem; }
+    section .center ol {
+      width: 30%;
+      margin: 0 auto;
+      overflow: hidden; }
+      section .center ol li {
+        width: 1rem;
+        height: 1rem;
+        display: block;
+        border-radius: 50%;
+        float: left;
+        margin-left: 15%;
+        background: #05a494; }
+  section .middle {
+    margin-top: 0.5rem;
+    width: 100%;
+    background: white;
+    overflow: hidden; }
+    section .middle ul {
+      width: 100%; }
+      section .middle ul li {
+        display: flex;
+        width: 100%; }
+        section .middle ul li span {
+          flex: 1;
+          font-size: 1.6rem;
+          color: #84bd52;
+          text-align: center; }
+          section .middle ul li span:nth-child(2) {
+            color: #f60; }
+          section .middle ul li span:nth-child(3) {
+            color: #f742a0; }
+        section .middle ul li a {
+          margin-top: 0.5rem;
+          flex: 1;
+          font-size: 1.2rem;
+          text-align: center; }
+        section .middle ul li img {
+          margin-left: 1rem;
+          width: 98%;
+          height: auto;
+          margin: 0 auto;
+          display: block;
+          margin-bottom: 0.5rem; }
+  section .bottom {
+    margin-top: 0.5rem;
+    background: white;
+    width: 100%; }
+    section .bottom h2 {
+      font-size: 1.8rem;
+      font-weight: normal;
+      margin: 0 0.5rem;
+      line-height: 2.5rem;
+      border-bottom: 0.1rem solid #ccc; }
+    section .bottom dl {
+      margin: 0.5rem 1%;
+      width: 98%;
+      display: flex;
+      border-bottom: 0.1rem solid #ccc; }
+      section .bottom dl dd {
+        flex: 1; }
+        section .bottom dl dd img {
+          width: 95%;
+          height: auto;
+          display: block;
+          margin: 0 auto; }
+      section .bottom dl dt {
+        flex: 3; }
+        section .bottom dl dt b {
+          font-size: 1.8rem;
+          font-weight: normal;
+          display: block; }
+        section .bottom dl dt span {
+          font-size: 1.0rem;
+          display: block;
+          margin: 0.5rem 0; }
+        section .bottom dl dt a {
+          display: block;
+          font-size: 1.2rem; }
+          section .bottom dl dt a i {
+            font-style: normal;
+            font-size: 1.6rem;
+            color: #08c1af;
+            font-weight: bold; }
+          section .bottom dl dt a em {
+            float: right;
+            margin-right: 1rem;
+            font-size: 1.4rem;
+            font-style: normal; }
+  section .down {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.5); }
+    section .down ul {
+      display: flex; }
+      section .down ul li {
+        flex: 2; }
+        section .down ul li:first-child {
+          flex: 1; }
+        section .down ul li img {
+          margin: 0.5rem;
+          width: 4rem;
+          height: auto; }
+        section .down ul li span {
+          margin: 0.5rem 0;
+          font-size: 1.4rem;
+          color: white;
+          display: block; }
+        section .down ul li em {
+          margin-left: 1rem;
+          margin-top: 1rem;
+          width: 6rem;
+          text-align: center;
+          font-size: 1.6rem;
+          display: block;
+          color: #08c1af;
+          font-style: normal;
+          padding: 0.2rem;
+          border: 0.1rem solid #08c1af;
+          border-radius: 10%; }
+
+footer {
+  width: 100%;
+  height: 4rem; }
+
+/*# sourceMappingURL=style.css.map */
